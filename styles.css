@@ -1,0 +1,17 @@
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-top: 10px;
+   }
+   input {
+       width: 250px;
+       height: 30px;
+       margin-bottom: 30px;
+   }
+   
+   p {
+       background-color: antiquewhite;
+       border: 20px;
+       text-align: center;
+   }

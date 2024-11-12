@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8">
+ <title>Калькулятор</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center; background-color: silver;">
+ <br>
+ <p id="result"></p>
+ <br>
+ <div id="operator_btns">
+   <button id="plus" onclick="n+='+'" class="button">+</button>
+   <button id="minus" onclick="n+='-'">-</button>
+   <button id="times" onclick="n+='*'">x</button>
+   <button id="divide" onclick="n+='/'">:</button>
+ </div>
+ <div id="number-btns">
+        <button id="1" onclick="n+='1'" class="button">1</button>
+        <button id="2" onclick="n+='2'">2</button>
+        <button id="3" onclick="n+='3'">3</button>
+        <br>
+        <button id="4" onclick="n+='4'">4</button>
+        <button id="5" onclick="n+='5'">5</button>
+        <button id="6" onclick="n+='6'">6</button>
+        <br>
+        <button id="7" onclick="n+='7'">7</button>
+        <button id="8" onclick="n+='8'">8</button>
+        <button id="9" onclick="n+='9'">9</button>
+        <br>
+        <button id="0" onclick="n+='0'">0</button>
+    </div>
+   <br>
+ <button onclick="func()">result</button>
+
+</body>
+</html>
